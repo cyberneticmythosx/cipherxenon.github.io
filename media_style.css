@@ -1,0 +1,173 @@
+/* Reset and box-sizing */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container styles */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  /* Social media buttons container */
+  .social-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Added flex-wrap for responsiveness */
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 10px; /* Changed margin to 10px */
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Added transition for all properties */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box-shadow for 3D effect */
+  }
+  
+  .btn i {
+    font-size: 24px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%; /* Increased width for smaller screens */
+    }
+  
+    .btn i {
+      font-size: 20px;
+    }
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .facebook:hover {
+    background-color: #4267b2;
+    transform: scale(1.1); /* Added scale effect on hover */
+  }
+  
+  /* Styles for the Instagram button */
+  .instagram {
+    background-color: #e4405f;
+  }
+  
+  .instagram:hover {
+    background-color: #bc2a8d;
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the Reddit button */
+  .reddit {
+    background-color: #ff4500;
+  }
+  
+  .reddit:hover {
+    background-color: #ff8717;
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the Discord button */
+  .discord {
+    background-color: #5865f2;
+  }
+  
+  .discord:hover {
+    background-color: #7289da;
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the Telegram button */
+  .telegram {
+    background-color: #0088cc;
+  }
+  
+  .telegram:hover {
+    background-color: #2ca5e0;
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the WhatsApp button */
+  .whatsapp {
+    background-color: #25d366;
+  }
+  
+  .whatsapp:hover {
+    background-color: #128c7e;
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the Gmail button */
+.gmail {
+    background-color: #ea4335;
+  }
+  
+  .gmail:hover {
+    background-color: #d33f2f;
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the Protonmail and Tutanota buttons */
+  .protonmail,
+  .tutanota {
+    background-color: #8b89cc;
+  }
+  
+  .protonmail:hover,
+  .tutanota:hover {
+    background-color: #7776b8;
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the GitHub button */
+  .github {
+    background-color: #181717;
+  }
+  
+  .github:hover {
+    background-color: #24292e;
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the GitLab button */
+  .gitlab {
+    background-color: #fc6d26;
+  }
+  
+  .gitlab:hover {
+    background-color: #e24329;
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the Bitbucket button */
+  .bitbucket {
+    background-color: #205081;
+  }
+  
+  .bitbucket:hover {
+    background-color: #1d69e0;
+    transform: scale(1.1);
+  }
+  
