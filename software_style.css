@@ -1,0 +1,82 @@
+/* Importing Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Rest of the CSS */
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5edf0; /* Violet but low-powerful background */
+}
+
+.software-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 350px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.description {
+    flex: 1;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    color: #666;
+}
+
+/* Minimal design for the Next Page button */
+button {
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* Centering the button */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    /* Your existing button styles */
+    /* Centering adjustments */
+    margin-top: 20px;
+    margin-bottom: 40px; /* Adjust the margin as needed */
+}
