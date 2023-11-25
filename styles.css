@@ -1,0 +1,83 @@
+  /* Styles for the main container */
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100vh;
+      background-color: #e5e5e5;
+      padding-top: 20px;
+      margin: 0;
+    }
+
+    /* Styles for the title */
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    /* Styles for the neumorphic cards */
+    .neumorphic-card {
+      width: 90%; /* Set width for the cards */
+      max-width: 400px; /* Maximum width for larger screens */
+      background: #D1D8EC;
+      border-radius: 20px;
+      box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+      transition: transform 0.3s ease;
+      margin-bottom: 20px; /* Adjust space between cards */
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .neumorphic-card:hover {
+      transform: scale(1.03);
+    }
+
+    /* Additional styles for consistency */
+    .neumorphic-card img {
+      width: 64px;
+      height: 64px;
+      margin-right: 20px; /* Adjust space between icon and text */
+    }
+
+    .neumorphic-card .text-container {
+      flex: 1; /* Allow the text container to expand */
+      text-align: left; /* Align text to the left */
+    }
+
+    .neumorphic-card h2 {
+      color: #333;
+      font-size: 1.5rem;
+      margin-bottom: 5px;
+    }
+
+    .neumorphic-card p {
+      color: #666;
+      font-size: 1rem;
+      margin: 0; /* Reset default margin */
+    }
+
+    /* Media query for smaller screens (mobile) */
+    @media (max-width: 768px) {
+      .neumorphic-card {
+        max-width: 90%; /* Adjust width for smaller screens */
+      }
+
+      .neumorphic-card img {
+        width: 48px;
+        height: 48px;
+        margin-right: 10px;
+      }
+
+      .neumorphic-card h2 {
+        font-size: 1.2rem;
+      }
+
+      .neumorphic-card p {
+        font-size: 0.9rem;
+      }
+    }
